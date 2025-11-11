@@ -42,3 +42,19 @@ It aims to streamline student health tracking, clinic appointment scheduling, an
 
 This system integrates **health monitoring**, **appointment management**, **emergency alerts**, and **resource tracking** in one unified platform.  
 It promotes **proactive health response** and **data-driven decision-making** for the school clinic and safety departments.
+
+## **UML Diagrams**
+#1. Use Case Diagram
+<img width="12992" height="11811" alt="JoseniCare - Final Use Case Diagram" src="https://github.com/user-attachments/assets/32e7348c-f65b-4ad9-a511-48d0741e4e37" />
+
+Details:
+**Actors:** 
+    **System**
+    **USJ-R Tertiary Students**
+    **Clinic Staff**
+    **Doctor**
+    **Safety and Security Department (SSD)**
+    **Administrator**
+
+#2. Class Diagram
+<img width="6000" height="3375" alt="CLASS DIAGRAM - JOSENICARE" src="https://github.com/user-attachments/assets/54eedeff-008b-4c20-9c6a-f5a1aac01c18" />
