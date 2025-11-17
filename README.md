@@ -58,3 +58,16 @@ Details:
 
 #2. Class Diagram
 <img width="6000" height="3375" alt="CLASS DIAGRAM - JOSENICARE" src="https://github.com/user-attachments/assets/54eedeff-008b-4c20-9c6a-f5a1aac01c18" />
+
+## **SOURCES:**
+**1.) Main Issue: (Student Approach to seeking help)** 
+https://www.researchgate.net/publication/394753494_Toward_sustainable_well-being_in_higher_education_mental_health_status_attitudes_social_support_and_service_utilization_among_college_students
+
+**2.) Main Issue: (Clinic Management: Paper-based process)**
+https://www.scribd.com/document/611534264/SCHOOL-CLINIC-MANAGEMENT-SYSTEM
+
+**3.) Branching Issue: (Academic affect)**
+https://scimatic.org/storage/journals/11/pdfs/4436.pdf
+
+**4.) Branching Advocacy: (Student Medical Awareness and welfare priority)** 
+https://www.researchgate.net/publication/388463421_Unfolding_Health_Literacy_among_Adolescents_A_Systematic_Review_in_the_Usage_of_Digital_Information
