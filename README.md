@@ -42,6 +42,7 @@ It aims to streamline student health tracking, clinic appointment scheduling, an
 
 This system integrates **health monitoring**, **appointment management**, **emergency alerts**, and **resource tracking** in one unified platform.  
 It promotes **proactive health response** and **data-driven decision-making** for the school clinic and safety departments.
+<<<<<<< Updated upstream
 
 ## **UML Diagrams**
 #1. Use Case Diagram
@@ -71,3 +72,5 @@ https://scimatic.org/storage/journals/11/pdfs/4436.pdf
 
 **4.) Branching Advocacy: (Student Medical Awareness and welfare priority)** 
 https://www.researchgate.net/publication/388463421_Unfolding_Health_Literacy_among_Adolescents_A_Systematic_Review_in_the_Usage_of_Digital_Information
+=======
+>>>>>>> Stashed changes
