@@ -1,6 +1,5 @@
 CREATE DATABASE inventory_database;
 USE inventory_database;
-DROP TABLE items;
 
 CREATE TABLE items (
 	itemId VARCHAR (4) PRIMARY KEY,
