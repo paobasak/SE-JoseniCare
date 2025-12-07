@@ -1,0 +1,10 @@
+CREATE DATABASE if NOT EXISTS josenicare_db;
+USE josenicare_db;
+
+
+CREATE TABLE if NOT EXISTS appointments(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    campus VARCHAR(255) NOT NULL,
+    type VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
