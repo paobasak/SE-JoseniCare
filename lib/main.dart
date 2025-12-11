@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'screens/login_page.dart';
+import 'pages/homepage.dart'; 
+
 
 void main() {
   runApp(const MyApp());
@@ -10,14 +11,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'JoseniCare',
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFFCBFF83)),
-        useMaterial3: true,
-      ),
-      home: const LoginPage(),
+      title: 'JoseniCare',
+      home: HomePage(), 
     );
   }
 }
