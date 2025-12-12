@@ -15,7 +15,7 @@ class _HealthSurveyCheck_inState extends State<HealthSurveyCheck_in> {
   late String currentSection;
   int healthRating = 0;
   String areaAffected = "";
-  String symptoms = "";
+  List<String> symptoms = [];
   DateTime? dateStarted;
   int painRating = 0;
   String painLocation = "";
@@ -563,10 +563,19 @@ class _HealthSurveyCheck_inState extends State<HealthSurveyCheck_in> {
                               spacing: 12,
                               runSpacing: 12,
                               children: symptomsList.map((symptom) {
-                                final bool isSelected = symptoms == symptom;
+                                final bool isSelected = symptoms.contains(
+                                  symptom,
+                                ); // check in list
                                 return GestureDetector(
-                                  onTap: () =>
-                                      setState(() => symptoms = symptom),
+                                  onTap: () {
+                                    setState(() {
+                                      if (isSelected) {
+                                        symptoms.remove(symptom); // deselect
+                                      } else {
+                                        symptoms.add(symptom); // select
+                                      }
+                                    });
+                                  },
                                   child: AnimatedContainer(
                                     duration: const Duration(milliseconds: 140),
                                     padding: const EdgeInsets.symmetric(
@@ -900,7 +909,7 @@ class _HealthSurveyCheck_inState extends State<HealthSurveyCheck_in> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          _infoRow("Symptom", symptoms),
+                          _infoRow("Symptom", symptoms.join(", ")),
                           _infoRow(
                             "Start",
                             dateStarted != null
@@ -1101,7 +1110,12 @@ class _HealthSurveyCheck_inState extends State<HealthSurveyCheck_in> {
                           );
                         },
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: const Color.fromARGB(255, 29, 29, 29),
+                          backgroundColor: const Color.fromARGB(
+                            255,
+                            29,
+                            29,
+                            29,
+                          ),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(12),
                           ),
